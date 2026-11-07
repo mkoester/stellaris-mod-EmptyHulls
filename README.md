@@ -28,12 +28,15 @@ Additive: no vanilla file is overridden. Achievement compatibility: not with any
 
 ## Layout
 
+- `PUBLISHING.md` — store texts and release checklist; `assets/` — thumbnail source, store screenshot.
 - `docs/prior-art.md` — existing mods compared (none does this, 2026-11-07).
 - `empty_hulls/` — the mod (only this folder ships).
   - `common/global_ship_designs/ehu_designs.txt` — the five designs.
   - `common/scripted_effects/ehu_effects.txt` — `ehu_grant_designs`, one flag per design.
   - `common/on_actions/ehu_on_actions.txt`, `events/ehu_events.txt` — game start, each tech,
     monthly; human empires only.
+
+Bugs and feedback: the [empty-hulls forum on Discord](https://discord.gg/INVITE).
 
 Unofficial fan project, not affiliated with Paradox Interactive. Stellaris and its game data are
 Paradox's.
