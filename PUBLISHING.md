@@ -19,19 +19,20 @@ store screenshot `designer-corvette.png`: the only one, cropped from the game's 
 - [x] Discord forum `empty-hulls`, invite `ufKQUpgAPx` (2026-11-07), in the store texts below and
       in `README.md`.
 - [x] `picture="thumbnail.png"` (512×512, our own art), tags, `version="1.0.0"`.
-- [ ] `ls -A empty_hulls` lists only `common/ descriptor.mod events/ localisation/ thumbnail.png`
+- [x] `ls -A empty_hulls` lists only `common/ descriptor.mod events/ localisation/ thumbnail.png`
       (the launcher uploads everything, including a stray `.claude/`).
-- [ ] Launcher closed → `scripts/link-mod.sh stellaris-mod-EmptyHulls/empty_hulls` → launcher
+- [x] Launcher closed → `scripts/link-mod.sh stellaris-mod-EmptyHulls/empty_hulls` → launcher
       open. On Linux the upload dialog may not see a **symlinked** mod: then copy the folder into
       `<user dir>/mod/` and upload the copy.
-- [ ] Upload to **Steam Workshop** (description: BBCode below, then the "More from me" block from
+- [x] Upload to **Steam Workshop** (description: BBCode below, then the "More from me" block from
       `../docs/store-more-from-me.md` without this mod's line). Add `assets/designer-corvette.png` on the
       item's page (both stores). A first upload starts **Hidden**: set it Public. The launcher writes
       `remote_file_id` into `descriptor.mod`: commit it.
-- [ ] Upload to **Paradox Mods** (plain text below; format headings, lists and links with the
+- [x] Upload to **Paradox Mods** (plain text below; format headings, lists and links with the
       website editor, then check the saved page).
-- [ ] IDs into the table below and into `../docs/store-more-from-me.md`; re-paste the "More from
-      me" blocks into every listed mod.
+- [x] IDs into the table below and into `../docs/store-more-from-me.md`.
+- [ ] Re-paste the "More from me" blocks into the other three mods' descriptions, both stores
+      (`../docs/store-more-from-me.md`, "Where it goes").
 - [ ] GitHub repo public (`gh repo edit mkoester/stellaris-mod-EmptyHulls --visibility public
       --accept-visibility-change-consequences`); the store texts don't link it, the README does
       no harm.
@@ -40,8 +41,11 @@ store screenshot `designer-corvette.png`: the only one, cropped from the game's 
 
 | Store | Item ID | URL |
 |---|---|---|
-| Steam Workshop | – | – |
-| Paradox Mods | – | – |
+| Steam Workshop | `3835150872` | https://steamcommunity.com/sharedfiles/filedetails/?id=3835150872 |
+| Paradox Mods | `166530` | https://mods.paradoxplaza.com/mods/166530/Any |
+
+`descriptor.mod` carries only the Workshop ID (`remote_file_id`); the launcher keeps the Paradox
+one in its own database.
 
 ---
 
