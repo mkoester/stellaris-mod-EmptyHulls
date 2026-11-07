@@ -18,7 +18,7 @@ What they are for:
   empty, so a grown ship stays empty.
 
 The designs carry only the required components, at tier 1 (cheapest); the FTL drive is your
-empire's own. Each design is added once per empire. If you delete one, it stays deleted. AI
+empire's own. Auto-upgrade is off, so the parts stay tier 1. Each design is added once per empire. If you delete one, it stays deleted. AI
 empires get none. Adding the mod to a running save works: the designs appear at the next month.
 
 Design names are fixed. A script cannot read or set a design's name, so the mod can't add a

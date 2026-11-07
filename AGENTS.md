@@ -35,7 +35,8 @@ Conventions, as in the sibling mods:
 To check in game (new game; console `research_technology tech_weavers` etc. for the bio hulls):
 1. Do the designs appear in the ship designer and build list with their names, valid and
    buildable?
-2. Does the game auto-upgrade their components or mark them obsolete? Either is fine; note which.
+2. Auto-upgrade is switched off (`set_auto_upgrade_components = no` on `last_created_design`):
+   is the designer's auto-upgrade box unticked, and do the parts stay tier 1 after new techs?
 3. Does an `S (empty)` Mauler grow to stage 2/3 and stay empty?
 4. Can the player edit, copy and delete them? Once deleted, a design must not come back.
 5. A save from before the mod: the designs appear once, at the next month.

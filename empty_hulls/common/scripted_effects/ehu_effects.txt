@@ -7,6 +7,8 @@ ehu_grant_design = {
 			NOT = { has_country_flag = ehu_has_$FLAG$ }
 		}
 		create_ship_design = { design = "$DESIGN$" ftl = this }
+		# keep the tier-1 parts (cheapest); vanilla sets `yes` the same way (grand_archive_effects.txt)
+		last_created_design = { set_auto_upgrade_components = no }
 		add_ship_design = last_created_design
 		set_country_flag = ehu_has_$FLAG$
 	}
