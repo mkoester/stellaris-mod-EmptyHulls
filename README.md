@@ -28,6 +28,7 @@ Additive: no vanilla file is overridden. Achievement compatibility: not with any
 
 ## Layout
 
+- `docs/prior-art.md` — existing mods compared (none does this, 2026-11-07).
 - `empty_hulls/` — the mod (only this folder ships).
   - `common/global_ship_designs/ehu_designs.txt` — the five designs.
   - `common/scripted_effects/ehu_effects.txt` — `ehu_grant_designs`, one flag per design.

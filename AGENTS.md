@@ -32,18 +32,7 @@ Conventions, as in the sibling mods:
 
 ## Prior art (searched 2026-11-07)
 
-No mod found that gives the player empty or weaponless designs automatically, or per bio hull as
-techs arrive. Web search only (five English queries); Workshop and Paradox Mods weren't searched
-directly. The nearest:
-- Automated Scout Ships 1.9 / 2.1 (Workshop `1142410404`, `1322924681`): auto-designed,
-  self-exploring scouts. Abandoned, removed from the Workshop.
-- "A Scout Ship and Scout Drone" (Skymods mirror, 4.4): a new cheap corvette-like hull; the player
-  still makes the design by hand.
-- More Ship Sections (`2322836135`): an unarmed section, no premade design.
-- Smarter Ship Design (`2094420716`), Spacedock: Adaptive AI Ship Design (`1911748162`): the
-  AI's designs only.
-Players have long asked to carry designs over between campaigns (Steam discussion
-`2266941647860845294`); no mod for that turned up either.
+None found: `docs/prior-art.md` (the nearest mods, what they lack, and what wasn't searched).
 
 ## Test run 1 (2026-11-07, Earth start, 2200.01.01–02.01): no design
 
