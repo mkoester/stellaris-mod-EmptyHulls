@@ -50,16 +50,26 @@ design files themselves loaded without errors.
 designs were renamed `M/L/XL` → `W/M/L` (Weaver `W`, so that `M` and `L` fall to Harbinger and
 Stinger), keys included. Only the `S` designs (keys unchanged) had been tested; `W/M/L` not yet.
 
-## Status (2026-11-07): open checks
+## Status (2026-11-07): 1.0.0 released on both stores
 
-To check in game (new game; console `research_technology tech_weavers` etc. for the bio hulls):
-1. Do the designs appear in the ship designer and build list with their names, valid and
-   buildable?
-2. Auto-upgrade is switched off (`set_auto_upgrade_components = no` on `last_created_design`):
-   is the designer's auto-upgrade box unticked, and do the parts stay tier 1 after new techs?
-3. Does an `S (empty)` Mauler grow to stage 2/3 and stay empty?
-4. Can the player edit, copy and delete them? Once deleted, a design must not come back.
-5. A save from before the mod: the designs appear once, at the next month.
-6. Does building one raise power projection (influence tooltip)?
+Seen in game (screenshots `2026_11_07_3.png` regular, `_4.png` bio, in the game's own folder):
+- The designs appear and are valid. A bio origin that starts with Weavers gets the Weaver
+  design on day 1 (still named `M (empty)` then, before the W/M/L rename).
+- Auto-upgrade box unticked. The corvette costs 60 alloys, upkeep 1.07 energy and 0.49 alloys,
+  against 110 / 1.51 / 0.58 for the auto-generated starting corvette.
+
+Still open (none blocks the release; check when convenient, new game, console
+`research_technology tech_harbingers` / `tech_stingers`):
+1. `M`/`L (empty)` appear with their new names after the tech.
+2. The parts stay tier 1 after new thruster/reactor techs.
+3. An `S (empty)` Mauler grows to stage 2/3 and stays empty.
+4. A deleted design does not come back.
+5. A save from before the mod gets the designs once, at the next month.
+6. Building one raises power projection (influence tooltip).
 Then `error.log` must have no `ehu_` / `EHU_` lines. Copy `logs/` before restarting the game: it
 is rewritten at each launch.
+
+## Releasing an update
+
+Bump `version` in `descriptor.mod` (own `chore:` commit), keep `remote_file_id`, and follow the
+checklist in `PUBLISHING.md`: same launcher upload, it updates the existing items.
