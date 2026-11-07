@@ -1,0 +1,11 @@
+namespace = ehu
+
+# Give a human empire the empty designs it is due. Fired at game start, on each tech, and monthly
+# (catch-up for saves the mod was added to, and for empires a player takes over).
+country_event = {
+	id = ehu.1
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = { is_ai = no }
+	immediate = { ehu_grant_designs = yes }
+}

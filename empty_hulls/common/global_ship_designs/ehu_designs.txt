@@ -1,0 +1,198 @@
+# Empty Hulls: weaponless designs given to human empires (ehu_effects.txt).
+# Only required components, at tier 1 (cheapest). The FTL drive is swapped for the empire's own by
+# create_ship_design's `ftl`. Bio designs keep empty sections in every growth stage, so a grown
+# ship stays empty; their unique slot holds the free "growth empty" part of each stage.
+
+ship_design = {
+	name = "EHU_S_EMPTY_CORVETTE"
+	ship_size = corvette
+	section = {
+		template = "CORVETTE_MID_S3"
+		slot = "mid"
+	}
+	required_component = "HYPER_DRIVE_1"
+	required_component = "SHIP_THRUSTER_1"
+	required_component = "SENSOR_1"
+	required_component = "CORVETTE_FISSION_REACTOR"
+	required_component = "COMBAT_COMPUTER_SWARM_DEFAULT"
+}
+
+ship_design = {
+	name = "EHU_S_EMPTY_MAULER"
+	growth_stages = {
+		{
+			ship_size = mauler_stage_1
+			section = {
+				template = "MAULER_STAGE_1_swarm"
+				slot = "mid"
+			}
+			required_component = "BIO_HYPER_DRIVE_1"
+			required_component = "BIO_SHIP_THRUSTER_1"
+			required_component = "BIOSHIP_SENSOR_1"
+			required_component = "CORVETTE_BIO_FISSION_REACTOR"
+			required_component = "BIO_COMBAT_COMPUTER_SWARM_DEFAULT"
+			required_component = "MAULER_STAGE_1_GROWTH_EMPTY"
+		}
+		{
+			ship_size = mauler_stage_2
+			section = {
+				template = "MAULER_STAGE_2_swarm"
+				slot = "mid"
+			}
+			required_component = "BIO_HYPER_DRIVE_1"
+			required_component = "BIO_SHIP_THRUSTER_1"
+			required_component = "BIOSHIP_SENSOR_1"
+			required_component = "CORVETTE_BIO_FISSION_REACTOR"
+			required_component = "BIO_COMBAT_COMPUTER_SWARM_DEFAULT"
+			required_component = "MAULER_STAGE_2_GROWTH_EMPTY"
+		}
+		{
+			ship_size = mauler_stage_3
+			section = {
+				template = "MAULER_STAGE_3_swarm"
+				slot = "mid"
+			}
+			required_component = "BIO_HYPER_DRIVE_1"
+			required_component = "BIO_SHIP_THRUSTER_1"
+			required_component = "BIOSHIP_SENSOR_1"
+			required_component = "CORVETTE_BIO_FISSION_REACTOR"
+			required_component = "BIO_COMBAT_COMPUTER_SWARM_DEFAULT"
+			required_component = "GROWTH_EMPTY"
+		}
+	}
+}
+
+ship_design = {
+	name = "EHU_M_EMPTY_WEAVER"
+	growth_stages = {
+		{
+			ship_size = weaver_stage_1
+			section = {
+				template = "WEAVER_STAGE_1_buffer"
+				slot = "mid"
+			}
+			required_component = "BIO_HYPER_DRIVE_1"
+			required_component = "BIO_SHIP_THRUSTER_1"
+			required_component = "BIOSHIP_SENSOR_1"
+			required_component = "DESTROYER_BIO_FISSION_REACTOR"
+			required_component = "BIO_COMBAT_COMPUTER_BUFFER_DEFAULT"
+			required_component = "WEAVER_STAGE_1_GROWTH_EMPTY"
+		}
+		{
+			ship_size = weaver_stage_2
+			section = {
+				template = "WEAVER_STAGE_2_buffer"
+				slot = "mid"
+			}
+			required_component = "BIO_HYPER_DRIVE_1"
+			required_component = "BIO_SHIP_THRUSTER_1"
+			required_component = "BIOSHIP_SENSOR_1"
+			required_component = "DESTROYER_BIO_FISSION_REACTOR"
+			required_component = "BIO_COMBAT_COMPUTER_BUFFER_DEFAULT"
+			required_component = "WEAVER_STAGE_2_GROWTH_EMPTY"
+		}
+		{
+			ship_size = weaver_stage_3
+			section = {
+				template = "WEAVER_STAGE_3_buffer"
+				slot = "mid"
+			}
+			required_component = "BIO_HYPER_DRIVE_1"
+			required_component = "BIO_SHIP_THRUSTER_1"
+			required_component = "BIOSHIP_SENSOR_1"
+			required_component = "DESTROYER_BIO_FISSION_REACTOR"
+			required_component = "BIO_COMBAT_COMPUTER_BUFFER_DEFAULT"
+			required_component = "GROWTH_EMPTY"
+		}
+	}
+}
+
+ship_design = {
+	name = "EHU_L_EMPTY_HARBINGER"
+	growth_stages = {
+		{
+			ship_size = harbinger_stage_1
+			section = {
+				template = "HARBINGER_STAGE_1_artillery"
+				slot = "mid"
+			}
+			required_component = "BIO_HYPER_DRIVE_1"
+			required_component = "BIO_SHIP_THRUSTER_1"
+			required_component = "BIOSHIP_SENSOR_1"
+			required_component = "CRUISER_BIO_FISSION_REACTOR"
+			required_component = "BIO_COMBAT_COMPUTER_ARTILLERY_DEFAULT"
+			required_component = "HARBINGER_STAGE_1_GROWTH_EMPTY"
+		}
+		{
+			ship_size = harbinger_stage_2
+			section = {
+				template = "HARBINGER_STAGE_2_artillery"
+				slot = "mid"
+			}
+			required_component = "BIO_HYPER_DRIVE_1"
+			required_component = "BIO_SHIP_THRUSTER_1"
+			required_component = "BIOSHIP_SENSOR_1"
+			required_component = "CRUISER_BIO_FISSION_REACTOR"
+			required_component = "BIO_COMBAT_COMPUTER_ARTILLERY_DEFAULT"
+			required_component = "HARBINGER_STAGE_2_GROWTH_EMPTY"
+		}
+		{
+			ship_size = harbinger_stage_3
+			section = {
+				template = "HARBINGER_STAGE_3_artillery"
+				slot = "mid"
+			}
+			required_component = "BIO_HYPER_DRIVE_1"
+			required_component = "BIO_SHIP_THRUSTER_1"
+			required_component = "BIOSHIP_SENSOR_1"
+			required_component = "CRUISER_BIO_FISSION_REACTOR"
+			required_component = "BIO_COMBAT_COMPUTER_ARTILLERY_DEFAULT"
+			required_component = "GROWTH_EMPTY"
+		}
+	}
+}
+
+ship_design = {
+	name = "EHU_XL_EMPTY_STINGER"
+	growth_stages = {
+		{
+			ship_size = stinger_stage_1
+			section = {
+				template = "STINGER_STAGE_1_artillery"
+				slot = "mid"
+			}
+			required_component = "BIO_HYPER_DRIVE_1"
+			required_component = "BIO_SHIP_THRUSTER_1"
+			required_component = "BIOSHIP_SENSOR_1"
+			required_component = "BATTLESHIP_BIO_FISSION_REACTOR"
+			required_component = "BIO_COMBAT_COMPUTER_ARTILLERY_DEFAULT"
+			required_component = "STINGER_STAGE_1_GROWTH_EMPTY"
+		}
+		{
+			ship_size = stinger_stage_2
+			section = {
+				template = "STINGER_STAGE_2_artillery"
+				slot = "mid"
+			}
+			required_component = "BIO_HYPER_DRIVE_1"
+			required_component = "BIO_SHIP_THRUSTER_1"
+			required_component = "BIOSHIP_SENSOR_1"
+			required_component = "BATTLESHIP_BIO_FISSION_REACTOR"
+			required_component = "BIO_COMBAT_COMPUTER_ARTILLERY_DEFAULT"
+			required_component = "STINGER_STAGE_2_GROWTH_EMPTY"
+		}
+		{
+			ship_size = stinger_stage_3
+			section = {
+				template = "STINGER_STAGE_3_artillery"
+				slot = "mid"
+			}
+			required_component = "BIO_HYPER_DRIVE_1"
+			required_component = "BIO_SHIP_THRUSTER_1"
+			required_component = "BIOSHIP_SENSOR_1"
+			required_component = "BATTLESHIP_BIO_FISSION_REACTOR"
+			required_component = "BIO_COMBAT_COMPUTER_ARTILLERY_DEFAULT"
+			required_component = "GROWTH_EMPTY"
+		}
+	}
+}

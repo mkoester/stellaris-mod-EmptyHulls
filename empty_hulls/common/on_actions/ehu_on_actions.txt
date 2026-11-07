@@ -1,0 +1,3 @@
+on_game_start_country = { events = { ehu.1 } }
+on_tech_increased = { events = { ehu.1 } }
+on_monthly_pulse_country = { events = { ehu.1 } }
