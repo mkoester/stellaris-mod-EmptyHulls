@@ -30,7 +30,31 @@ Conventions, as in the sibling mods:
 - Reactor size by hull (`ship_uses_<size>_reactors`): Mauler corvette, Weaver destroyer,
   Harbinger cruiser, Stinger battleship.
 
-## Status (2026-11-07): written, not yet run in game
+## Prior art (searched 2026-11-07)
+
+No mod found that gives the player empty or weaponless designs automatically, or per bio hull as
+techs arrive. Web search only (five English queries); Workshop and Paradox Mods weren't searched
+directly. The nearest:
+- Automated Scout Ships 1.9 / 2.1 (Workshop `1142410404`, `1322924681`): auto-designed,
+  self-exploring scouts. Abandoned, removed from the Workshop.
+- "A Scout Ship and Scout Drone" (Skymods mirror, 4.4): a new cheap corvette-like hull; the player
+  still makes the design by hand.
+- More Ship Sections (`2322836135`): an unarmed section, no premade design.
+- Smarter Ship Design (`2094420716`), Spacedock: Adaptive AI Ship Design (`1911748162`): the
+  AI's designs only.
+Players have long asked to carry designs over between campaigns (Steam discussion
+`2266941647860845294`); no mod for that turned up either.
+
+## Test run 1 (2026-11-07, Earth start, 2200.01.01–02.01): no design
+
+`error.log`: `Unexpected token: ftl = this } …` at game start, then at the monthly pulse
+`invalid design for create_ship_design effect`. Cause: `design = "$DESIGN$"`. **A quoted
+`$PARAM$` breaks the substitution even without a `|`**: the string runs on to the end of the
+effect body. Fix (untested): unquoted, as vanilla writes it (`design = $GLOBAL_DESIGN$`,
+`grand_archive_effects.txt`). No flag was set, so the same save should pick the designs up at its next month. The
+design files themselves loaded without errors.
+
+## Status (2026-11-07): run 1 failed (fixed above), run 2 pending
 
 To check in game (new game; console `research_technology tech_weavers` etc. for the bio hulls):
 1. Do the designs appear in the ship designer and build list with their names, valid and
