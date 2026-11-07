@@ -1,6 +1,6 @@
 # Empty Hulls
 
-Stellaris mod (game **4.5.x**): weaponless "S/M/L/XL (empty)" designs given to human empires
+Stellaris mod (game **4.5.x**): weaponless "S/W/M/L (empty)" designs given to human empires
 (behaviour and layout: `README.md`). Workspace context: `../AGENTS.md`. Private until it works.
 
 Conventions, as in the sibling mods:
@@ -39,11 +39,17 @@ None found: `docs/prior-art.md` (the nearest mods, what they lack, and what wasn
 `error.log`: `Unexpected token: ftl = this } …` at game start, then at the monthly pulse
 `invalid design for create_ship_design effect`. Cause: `design = "$DESIGN$"`. **A quoted
 `$PARAM$` breaks the substitution even without a `|`**: the string runs on to the end of the
-effect body. Fix (untested): unquoted, as vanilla writes it (`design = $GLOBAL_DESIGN$`,
+effect body. Fixed: unquoted, as vanilla writes it (`design = $GLOBAL_DESIGN$`,
 `grand_archive_effects.txt`). No flag was set, so the same save should pick the designs up at its next month. The
 design files themselves loaded without errors.
 
-## Status (2026-11-07): run 1 failed (fixed above), run 2 pending
+## Test run 2 (2026-11-07): designs present at game start
+
+`S (empty)` appeared at game start for a regular empire and for a bio empire. Then the bio
+designs were renamed `M/L/XL` → `W/M/L` (Weaver `W`, so that `M` and `L` fall to Harbinger and
+Stinger), keys included. Only the `S` designs (keys unchanged) had been tested; `W/M/L` not yet.
+
+## Status (2026-11-07): open checks
 
 To check in game (new game; console `research_technology tech_weavers` etc. for the bio hulls):
 1. Do the designs appear in the ship designer and build list with their names, valid and

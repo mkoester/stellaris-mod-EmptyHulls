@@ -1,6 +1,6 @@
 ﻿l_english:
  EHU_S_EMPTY_CORVETTE:0 "S (empty)"
  EHU_S_EMPTY_MAULER:0 "S (empty)"
- EHU_M_EMPTY_WEAVER:0 "M (empty)"
- EHU_L_EMPTY_HARBINGER:0 "L (empty)"
- EHU_XL_EMPTY_STINGER:0 "XL (empty)"
+ EHU_W_EMPTY_WEAVER:0 "W (empty)"
+ EHU_M_EMPTY_HARBINGER:0 "M (empty)"
+ EHU_L_EMPTY_STINGER:0 "L (empty)"

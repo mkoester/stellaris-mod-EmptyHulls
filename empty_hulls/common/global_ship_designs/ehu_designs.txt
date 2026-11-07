@@ -63,7 +63,7 @@ ship_design = {
 }
 
 ship_design = {
-	name = "EHU_M_EMPTY_WEAVER"
+	name = "EHU_W_EMPTY_WEAVER"
 	growth_stages = {
 		{
 			ship_size = weaver_stage_1
@@ -108,7 +108,7 @@ ship_design = {
 }
 
 ship_design = {
-	name = "EHU_L_EMPTY_HARBINGER"
+	name = "EHU_M_EMPTY_HARBINGER"
 	growth_stages = {
 		{
 			ship_size = harbinger_stage_1
@@ -153,7 +153,7 @@ ship_design = {
 }
 
 ship_design = {
-	name = "EHU_XL_EMPTY_STINGER"
+	name = "EHU_L_EMPTY_STINGER"
 	growth_stages = {
 		{
 			ship_size = stinger_stage_1

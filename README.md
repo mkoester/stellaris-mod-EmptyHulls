@@ -7,9 +7,9 @@ ones many players build by hand at the start of each campaign.
 |---|---|---|
 | `S (empty)` | Corvette | game start (empires without bio ships) |
 | `S (empty)` | Mauler | Maulers researched (bio ships, usually at start) |
-| `M (empty)` | Weaver | Weavers researched |
-| `L (empty)` | Harbinger | Harbingers researched |
-| `XL (empty)` | Stinger | Stingers researched |
+| `W (empty)` | Weaver | Weavers researched |
+| `M (empty)` | Harbinger | Harbingers researched |
+| `L (empty)` | Stinger | Stingers researched |
 
 What they are for:
 - **Cheap power projection**, which feeds monthly influence.

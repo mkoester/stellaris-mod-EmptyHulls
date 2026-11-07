@@ -18,7 +18,7 @@ ehu_grant_design = {
 ehu_grant_designs = {
 	ehu_grant_design = { FLAG = corvette DESIGN = EHU_S_EMPTY_CORVETTE WHEN = "country_uses_bio_ships = no" }
 	ehu_grant_design = { FLAG = mauler DESIGN = EHU_S_EMPTY_MAULER WHEN = "country_uses_bio_ships = yes has_technology = tech_maulers" }
-	ehu_grant_design = { FLAG = weaver DESIGN = EHU_M_EMPTY_WEAVER WHEN = "country_uses_bio_ships = yes has_technology = tech_weavers" }
-	ehu_grant_design = { FLAG = harbinger DESIGN = EHU_L_EMPTY_HARBINGER WHEN = "country_uses_bio_ships = yes has_technology = tech_harbingers" }
-	ehu_grant_design = { FLAG = stinger DESIGN = EHU_XL_EMPTY_STINGER WHEN = "country_uses_bio_ships = yes has_technology = tech_stingers" }
+	ehu_grant_design = { FLAG = weaver DESIGN = EHU_W_EMPTY_WEAVER WHEN = "country_uses_bio_ships = yes has_technology = tech_weavers" }
+	ehu_grant_design = { FLAG = harbinger DESIGN = EHU_M_EMPTY_HARBINGER WHEN = "country_uses_bio_ships = yes has_technology = tech_harbingers" }
+	ehu_grant_design = { FLAG = stinger DESIGN = EHU_L_EMPTY_STINGER WHEN = "country_uses_bio_ships = yes has_technology = tech_stingers" }
 }
