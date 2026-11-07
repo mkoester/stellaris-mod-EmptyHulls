@@ -36,7 +36,7 @@ Additive: no vanilla file is overridden. Achievement compatibility: not with any
   - `common/on_actions/ehu_on_actions.txt`, `events/ehu_events.txt` — game start, each tech,
     monthly; human empires only.
 
-Bugs and feedback: the [empty-hulls forum on Discord](https://discord.gg/INVITE).
+Bugs and feedback: the [empty-hulls forum on Discord](https://discord.gg/ufKQUpgAPx).
 
 Unofficial fan project, not affiliated with Paradox Interactive. Stellaris and its game data are
 Paradox's.

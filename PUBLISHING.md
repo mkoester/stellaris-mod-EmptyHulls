@@ -16,8 +16,8 @@ store screenshot `designer-corvette.png`: the only one, cropped from the game's 
 - [ ] Not yet seen in game: `M`/`L (empty)` after `research_technology tech_harbingers` /
       `tech_stingers`; a grown Mauler stays empty; a deleted design doesn't come back; a save
       from before the mod gets the designs at the next month (`AGENTS.md`, "open checks").
-- [ ] Discord forum `empty-hulls` with its own invite (`../docs/discord.md`, "A new forum");
-      put the code in place of `INVITE` below and in `README.md`, and a row in `discord.md`.
+- [x] Discord forum `empty-hulls`, invite `ufKQUpgAPx` (2026-11-07), in the store texts below and
+      in `README.md`.
 - [x] `picture="thumbnail.png"` (512×512, our own art), tags, `version="1.0.0"`.
 - [ ] `ls -A empty_hulls` lists only `common/ descriptor.mod events/ localisation/ thumbnail.png`
       (the launcher uploads everything, including a stray `.claude/`).
@@ -88,7 +88,7 @@ in the designer if you prefer.
 [/list]
 
 [h2]Bugs & feedback[/h2]
-Post them in the [url=https://discord.gg/INVITE]empty-hulls forum on Discord[/url].
+Post them in the [url=https://discord.gg/ufKQUpgAPx]empty-hulls forum on Discord[/url].
 
 [i]Unofficial fan project, not affiliated with Paradox Interactive.[/i]
 ```
@@ -126,7 +126,7 @@ Compatibility
 • Changes the checksum: no achievements or Ironman while it is active.
 
 Bugs & feedback
-Post them in the empty-hulls forum on Discord: https://discord.gg/INVITE
+Post them in the empty-hulls forum on Discord: https://discord.gg/ufKQUpgAPx
 
 Unofficial fan project, not affiliated with Paradox Interactive.
 ```
