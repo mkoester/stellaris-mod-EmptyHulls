@@ -7,7 +7,9 @@ ehu_grant_design = {
 			NOT = { has_country_flag = ehu_has_$FLAG$ }
 		}
 		# unquoted: a quoted "$DESIGN$" breaks the substitution (2026-11-07, error.log)
-		create_ship_design = { design = $DESIGN$ ftl = this }
+		# no `ftl = this`: 4.5.4 rejects it ("Unexpected token: ftl", error.log 2026-11-18) despite
+		# the script docs; vanilla never passes it. The design keeps its HYPER_DRIVE_1.
+		create_ship_design = { design = $DESIGN$ }
 		# keep the tier-1 parts (cheapest); vanilla sets `yes` the same way (grand_archive_effects.txt)
 		last_created_design = { set_auto_upgrade_components = no }
 		add_ship_design = last_created_design

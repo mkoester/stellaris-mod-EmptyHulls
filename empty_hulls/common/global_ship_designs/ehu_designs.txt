@@ -1,6 +1,6 @@
 # Empty Hulls: weaponless designs given to human empires (ehu_effects.txt).
-# Only required components, at tier 1 (cheapest). The FTL drive is swapped for the empire's own by
-# create_ship_design's `ftl`. Bio designs keep empty sections in every growth stage, so a grown
+# Only required components, at tier 1 (cheapest). The FTL drive is HYPER_DRIVE_1 (create_ship_design's
+# `ftl` is rejected by 4.5.4, ehu_effects.txt). Bio designs keep empty sections in every growth stage, so a grown
 # ship stays empty; their unique slot holds the free "growth empty" part of each stage.
 
 ship_design = {

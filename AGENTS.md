@@ -16,9 +16,11 @@ Conventions, as in the sibling mods:
 
 ## How it works (from the 4.5.x script docs and vanilla files)
 
-- `create_ship_design = { design = <global design name> ftl = <country> }` then
+- `create_ship_design = { design = <global design name> }` then
   `add_ship_design = last_created_design` gives an empire a design defined in
   `common/global_ship_designs/` (vanilla: `biogenesis_effects.txt`, `NAME_Starlit_Starbase`).
+  The script docs offer `ftl = <country>`, but 4.5.4 rejects it at load (`Unexpected token:
+  ftl`, 5× per game start, seen 2026-11-18); dropped in 1.0.1, the designs keep `HYPER_DRIVE_1`.
 - **Design names can't be scripted:** `set_name` doesn't apply to designs, and no trigger compares
   a design's name, so a clash can't be detected (the suffix idea was dropped). The name is the
   global design's `name` loc key.
