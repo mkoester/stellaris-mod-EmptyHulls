@@ -54,6 +54,9 @@ Stinger), keys included. Only the `S` designs (keys unchanged) had been tested; 
 
 ## Status (2026-11-07): 1.0.0 released on both stores
 
+**1.0.1 (2026-11-18): committed, not uploaded, not yet seen in game** — drops `ftl = this`
+("How it works"). Check on the next game start: no `ehu_` line in error.log, designs still granted.
+
 Seen in game (screenshots `2026_11_07_3.png` regular, `_4.png` bio, in the game's own folder):
 - The designs appear and are valid. A bio origin that starts with Weavers gets the Weaver
   design on day 1 (still named `M (empty)` then, before the W/M/L rename).
