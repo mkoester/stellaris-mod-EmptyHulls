@@ -74,6 +74,12 @@ Still open (none blocks the release; check when convenient, new game, console
 Then `error.log` must have no `ehu_` / `EHU_` lines. Copy `logs/` before restarting the game: it
 is rewritten at each launch.
 
+Seen in the user's campaign (Roaming Cybergang, Workshop 1.0.0, read 2026-11-22): `Unexpected
+token: ftl` still 5× per load (the 1.0.0 error, so 1.0.1 is still owed to the stores); `S`
+corvette, `S` Mauler and `W` Weaver designs held. Point 1 is not answered there: the player got
+Harbingers between 2234.10 and 2241 while the game was observed, and the grant is human-only
+(`is_ai = no`) — so no `M (empty)` yet. With `play 0`, the next monthly pulse should grant it.
+
 ## Releasing an update
 
 Bump `version` in `descriptor.mod` (own `chore:` commit), keep `remote_file_id`, and follow the
