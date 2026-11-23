@@ -7,6 +7,13 @@ source (`thumbnail.svg`, our own art, rendered with
 store screenshot `designer-corvette.png`: the only one, cropped from the game's own F12 shot
 `2026_11_07_3.png` to the ship designer (`magick <shot> -crop 1275x635+38+50 +repage <out>`).
 
+## Update 1.0.2 (game 4.6.0, 2026-11-23)
+
+No code change: 4.6 left every component, section template and hull the mod uses as it was.
+- [x] `version="1.0.2"`, `supported_version="v4.6.*"`; store copy says 4.5.x and 4.6.x.
+- [x] Loaded in the 4.6.0 campaign: nothing of the mod in `error.log`.
+- [ ] Upload to both stores. Change note: "Supports Stellaris 4.6 (Willpower). No other change."
+
 ## Checklist (first release, 1.0.0)
 
 - [x] At game start, `S (empty)` appears for a regular empire (corvette) and a bio empire
@@ -86,7 +93,7 @@ in the designer if you prefer.
 
 [h2]Compatibility[/h2]
 [list]
-[*]Built for Stellaris 4.5.x. BioGenesis is needed only for the bio designs.
+[*]Built for Stellaris 4.5.x and 4.6.x. BioGenesis is needed only for the bio designs.
 [*]Changes no vanilla files: it adds five ship designs, one hidden event and three on_action hooks.
 [*]Changes the checksum: no achievements or Ironman while it is active.
 [/list]
@@ -125,7 +132,7 @@ Good to know
 • The names are fixed. A mod can't read or set a design's name, so if you already have a design called "S (empty)", you get a second one.
 
 Compatibility
-• Built for Stellaris 4.5.x. BioGenesis is needed only for the bio designs.
+• Built for Stellaris 4.5.x and 4.6.x. BioGenesis is needed only for the bio designs.
 • Changes no vanilla files: it adds five ship designs, one hidden event and three on_action hooks.
 • Changes the checksum: no achievements or Ironman while it is active.
 

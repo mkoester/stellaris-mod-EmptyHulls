@@ -1,6 +1,6 @@
 # Empty Hulls
 
-Stellaris mod (game **4.5.x**): weaponless "S/W/M/L (empty)" designs given to human empires
+Stellaris mod (game **4.5.x and 4.6.x**): weaponless "S/W/M/L (empty)" designs given to human empires
 (behaviour and layout: `README.md`). Workspace context: `../AGENTS.md`. Public since
 2026-11-07 (1.0.0); store texts, IDs and release checklist: `PUBLISHING.md`.
 

@@ -1,6 +1,6 @@
 # Empty Hulls
 
-A Stellaris mod (game **4.5.x**): human empires get weaponless ship designs automatically, the
+A Stellaris mod (game **4.5.x and 4.6.x**): human empires get weaponless ship designs automatically, the
 ones many players build by hand at the start of each campaign.
 
 | Design | Hull | When |
